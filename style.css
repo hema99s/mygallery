@@ -126,8 +126,8 @@
  @media only screen and (max-width: 550px){
     
    .container{
-       grid-auto-columns: 100px ;
-       grid-template-rows: 100px;
+       grid-auto-columns: 1fr ;
+       grid-template-rows: 1fr;
        grid-gap: 0.2em;
        margin-left:16vw ;
        margin-right:13vw ;
@@ -157,10 +157,10 @@
       grid-row-end: 7;
   }
   #im {
-      grid-column-start: 0;
-      grid-row-end:0 ;
-      grid-row-start: 0;
-      grid-row-end: 0;
+      grid-column-start:1 ;
+      grid-row-end:3 ;
+      grid-row-start: 35;
+      grid-row-end: 37;
       
   }
 
